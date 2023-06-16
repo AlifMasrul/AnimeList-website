@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DZAnimelist - Login</title>
+    <link rel="stylesheet" href="CSSLogin.css">
+    <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+<body>
+	<br><br><br>
+    <div class="container">
+        <h2>Login</h2>
+        <p>Enter your User ID and Password</p>
+        <p>All fields <span style="color: red;">*</span></p>
+        <form action="Login_Verify.php" method="POST">
+            <div class="form-control">
+                <label for="userid">User ID <span style="color: red;">*</span></label>
+                <input type="text" id="userid" name="UserId" required>
+            </div>
+            <div class="form-control">
+                <label for="password">Password <span style="color: red;">*</span></label>
+                <input type="password" id="password" name="UserPass" required>
+            </div>
+            <div class="form-actions">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

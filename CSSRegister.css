@@ -1,0 +1,68 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1D2023;
+    color: #1D2023;
+}
+
+h1, h2 {
+    margin: 0;
+    text-align: center;
+	color: #CCD0D8;
+}
+
+.required {
+    color: #f70000;
+}
+
+/* Form Styles */
+form {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #84A4FC;
+    border: 2px solid #1463F3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="date"], input[type="password"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #CCD0D8;
+    color: #1D2023;
+    margin-bottom: 10px;
+}
+
+input[type="submit"], input[type="reset"], button {
+    background-color: #1463F3;
+    color: #CCD0D8;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover, button:hover {
+    background-color: #1D2023;
+	transform: scale(0.95);
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: center;
+}

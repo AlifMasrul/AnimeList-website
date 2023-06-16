@@ -1,0 +1,85 @@
+/* Font family */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Background color */
+body {
+  background-color: #1D2023;
+}
+
+/* Page header */
+h2 {
+  color: #84A4FC;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Table styles */
+table {
+  width: 70%;
+
+  border-collapse: collapse;
+  margin: auto;
+  background-color: #CCD0D8;
+}
+
+th {
+  background-color: #1463F3;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+td {
+  padding: 10px;
+  text-align: center;
+  
+}
+
+tr:nth-child(even) {
+  background-color: #fff;
+}
+
+/* Links */
+a {
+  color: #1463F3;
+}
+
+a:hover {
+  color: #84A4FC;
+}
+
+/* Buttons */
+button {
+  background-color: #1463F3;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #84A4FC;
+}
+
+/* Paragraphs */
+p {
+  color: #fff;
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+}
